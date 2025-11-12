@@ -6,12 +6,13 @@ import Vehicles from "./pages/Vehicles";
 import Details from "./pages/Details";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <div className="p-4">
+      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/vehicles" element={<Vehicles />} />
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<ContactUs />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }
