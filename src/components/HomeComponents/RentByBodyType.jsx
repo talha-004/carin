@@ -1,16 +1,16 @@
 const bodyTypes = [
-  { name: "SUV", icon: "/assets/Group 83.png" },
-  { name: "Crossover", icon: "public/assets/Group 85.png" },
-  { name: "Wagon", icon: "public/assets/Group 87.png" },
-  { name: "Family MBP", icon: "public/assets/Group 87.png" },
-  { name: "Sport Coupe", icon: "public/assets/Group 89.png" },
-  { name: "Compact", icon: "public/assets/Group 91.png" },
-  { name: "Coup", icon: "public/assets/Group 93.png" },
-  { name: "BMW", icon: "public/assets/Group 95.png" },
-  { name: "Sedan", icon: "public/assets/Group 96.png" },
-  { name: "Limousine", icon: "public/assets/Group 97.png" },
-  { name: "Convertible", icon: "public/assets/Group 98.png" },
-  { name: "Crossover", icon: "public/assets/Group 100.png" },
+  { name: "SUV", icon: "/assets/suv-red 1.png" },
+  { name: "Crossover", icon: "/assets/crossover-red 1.png" },
+  { name: "Wagon", icon: "/assets/wagon-red 1.png" },
+  { name: "Family MBP", icon: "/assets/mpv-red 1.png" },
+  { name: "Sport Coupe", icon: "/assets/sport-coupe-red 1.png" },
+  { name: "Compact", icon: "/assets/compact-red 1.png" },
+  { name: "Coup", icon: "/assets/sport-coupe-red 1.png" },
+  { name: "BMW", icon: "/assets/pickup-red 1.png" },
+  { name: "Sedan", icon: "/assets/sedan-red 1.png" },
+  { name: "Limousine", icon: "/assets/wagon-red 1.png" },
+  { name: "Convertible", icon: "/assets/convertible-red 1.png" },
+  { name: "Crossover", icon: "/assets/crossover-red 1.png" },
 ];
 
 const RentByBodyType = () => {
