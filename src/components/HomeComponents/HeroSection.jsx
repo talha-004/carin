@@ -2,10 +2,10 @@ import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 md:py-20 bg-white">
+    <section className="flex flex-col md:flex-row items-center justify-between   bg-white">
       {/* Left Text Section */}
-      <div className="md:w-1/2 space-y-6">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+      <div className="md:w-1/2 space-y-6  ml-0 p-10 lg:p-0 lg:ml-26 px-5">
+        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
           Discover the world on wheels with our car rental service
         </h1>
         <p className="text-gray-600 text-lg leading-relaxed">
@@ -28,7 +28,7 @@ const HeroSection = () => {
       </div>
 
       {/* Right Image Section */}
-      <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+      <div className=" flex justify-center ">
         <img
           src="/assets/pngegg.png"
           alt="Car"

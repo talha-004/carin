@@ -6,9 +6,9 @@ const Navbar = () => {
   const activeStyle = "text-green-700 font-semibold";
 
   return (
-    <nav className="w-full flex items-center justify-between px-8 py-4 shadow-sm bg-white">
+    <nav className="w-full flex items-center justify-between px-8 py-6 shadow-sm bg-white">
       {/* Logo */}
-      <img src="/assets/Carin_logo.png" alt="logo" />
+      <img src="/assets/Carin_logo.png" className="w-26" alt="logo" />
 
       {/* Menu Links */}
       <ul className="hidden md:flex space-x-8">
