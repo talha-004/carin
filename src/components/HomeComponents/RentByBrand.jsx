@@ -1,16 +1,19 @@
 const brands = [
-  { name: "Toyota", logo: "/assets/Group 71.png" },
-  { name: "Ford", logo: "/assets/Group 72.png" },
-  { name: "Tesla", logo: "/assets/Group 73.png" },
-  { name: "Volkswagen", logo: "/assets/Group 74.png" },
-  { name: "Honda", logo: "/assets/Group 75.png" },
-  { name: "Nissan", logo: "/assets/Group 76.png" },
-  { name: "Chevrolet", logo: "/assets/Group 77.png" },
-  { name: "BMW", logo: "/assets/Group 78.png" },
-  { name: "Mercedes-Benz", logo: "/assets/Group 79.png" },
-  { name: "Hyundai", logo: "/assets/Group 80.png" },
-  { name: "Audi", logo: "/assets/Group 81.png" },
-  { name: "KIA", logo: "/assets/Group 82.png" },
+  { name: "Toyota", logo: "/assets/Vector.png" },
+  { name: "Ford", logo: "/assets/layer1.png" },
+  { name: "Tesla", logo: "/assets/Tesla svg.png" },
+  { name: "Volkswagen", logo: "/assets/Volkswagen USA svg.png" },
+  { name: "Honda", logo: "/assets/Honda svg.png" },
+  { name: "Nissan", logo: "/assets/Nissan USA svg.png" },
+  { name: "Chevrolet", logo: "/assets/Chevrolet - png.png" },
+  { name: "BMW", logo: "/assets/bmw_logo_icon_145840 1.png" },
+  {
+    name: "Mercedes-Benz",
+    logo: "/assets/mercedes_benz_logo_icon_145798 1.png",
+  },
+  { name: "Hyundai", logo: "/assets/Hyundai svg.png" },
+  { name: "Audi", logo: "/assets/Audi svg.png" },
+  { name: "KIA", logo: "/assets/Kia svg.png" },
 ];
 
 const RentByBrands = () => {
